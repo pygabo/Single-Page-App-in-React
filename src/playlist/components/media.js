@@ -1,22 +1,26 @@
 import React from "react";
 
+
 class Media extends React.Component {
-    render(){
-        return(
-            <div>
-                <div>
-                    <img 
-                    src=''
-                    all=''
-                    width={260}
-                    height={160}
-                />
-                
-                <h3>¿Por que aprender python..?</h3>
-                <p>jose Guzman </p>
-                </div>
-            </div>
-        )
-    }
+  render() {
+    return (
+      <div class="container">
+        <div class="row">
+          <div class="border border-primary col-3">
+            <img
+              src="./images/covers/EGH_IntroPython.png"
+              all=""
+              class="img-fluid"
+
+            >
+            </img>
+
+            <h4>¿Por que aprender python..?</h4>
+            <p>jose Guzman</p>
+          </div>
+        </div>
+      </div>
+    );
+  }
 }
 export default Media;
