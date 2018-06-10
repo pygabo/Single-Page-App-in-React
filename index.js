@@ -4,4 +4,4 @@ import Media from "./src/playlist/components/media";
 
 const app = document.getElementById("app");
 
-render(<Media />, app);
+render(<Media type='video' title="Que es Django" owner="José Guzmán" image="./images/covers/EGH_IntroPython.png" />, app);

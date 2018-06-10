@@ -12,7 +12,8 @@
     "build:dev": "webpack-dev-server --config ./webpack.dev.config.js",
     "build": "webpack",
     "build:local": "webpack --env.NODE_ENV=local",
-    "build:prod": "webpack -p --env.NODE_ENV=production"
+    "build:prod": "webpack -p --env.NODE_ENV=production",
+    "start": "micro"
   },
   "devDependencies": {
     "babel-core": "6.26.0",
@@ -30,7 +31,12 @@
     "webpack-dev-server": "2.9.3"
   },
   "dependencies": {
+    "micro": "latest",
+    "now": "^11.2.2",
+    "prop-types": "^15.6.1",
     "react": "^16.4.0",
     "react-dom": "^16.4.0"
-  }
+  },
+  "repository": "git@github.com:joseGabriel06/Learning-React.git",
+  "private": true
 }
