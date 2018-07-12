@@ -1,7 +1,7 @@
 > ## React SPA
 
 ---
-proyecto peronal para esperimentar con fixtures de React js :smirk:
+proyecto peronal para experimentar con fixtures de React js :smirk:
 
 
 ## dev
